@@ -1,0 +1,13 @@
+.button-sector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  min-height: 70vh;
+}
+
+[data-start],
+[data-stop] {
+  width: 120px;
+  height: 40px;
+}
