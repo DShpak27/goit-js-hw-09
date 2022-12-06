@@ -1,0 +1,48 @@
+body {
+    font-family: serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+input {
+    font-family: serif;
+    font-size: 17px;
+}
+
+button {
+    font-family: serif;
+    font-size: 17px;
+}
+
+.picker-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+}
+
+.label,
+.value {
+    display: flex;
+    min-width: 30px;
+    min-height: 30px;
+    justify-content: center;
+    align-items: baseline;
+    color: rgb(81, 136, 236)
+}
+
+.value {
+    color: tomato;
+}
