@@ -3,7 +3,6 @@ const refs = {
   startBtnRef: document.querySelector('[data-start]'),
   stopBtnRef: document.querySelector('[data-stop]'),
 };
-const initialBodyBgcolor = getComputedStyle(refs.bodyRef).backgroundColor;
 
 // let isActive = false;
 let intervalId = null;
@@ -29,7 +28,6 @@ function onStartBtnClick() {
 
 function onStopBtnClick() {
   //   isActive = false;
-  refs.bodyRef.style.backgroundColor = initialBodyBgcolor;
   clearInterval(intervalId);
   refs.startBtnRef.removeAttribute('disabled');
 }
